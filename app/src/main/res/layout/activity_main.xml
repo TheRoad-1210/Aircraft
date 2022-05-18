@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene">
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="easy"
+        android:onClick="StartEasy"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="normal"
+        android:onClick="StartNormal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hard"
+        android:onClick="StartHard"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="429dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
