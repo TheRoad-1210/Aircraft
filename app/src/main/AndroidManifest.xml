@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.hitsz.application">
+    package="com.example.aircraft">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Aircraft" >
 
         <!--默认的activity-->
-    <activity android:name=".MainActivity"
+    <activity android:name=".application.MainActivity"
         android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -20,9 +20,9 @@
         </intent-filter>
         </activity>
 
-        <activity android:name=".game.Easy"/>
-        <activity android:name=".game.Normal"/>
-        <activity android:name=".game.Difficult"/>
+        <activity android:name=".application.game.Easy"/>
+        <activity android:name=".application.game.Normal"/>
+        <activity android:name=".application.game.Difficult"/>
     </application>
 
 </manifest>
